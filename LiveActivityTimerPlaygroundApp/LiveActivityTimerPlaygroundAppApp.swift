@@ -2,7 +2,7 @@
 //  LiveActivityTimerPlaygroundAppApp.swift
 //  LiveActivityTimerPlaygroundApp
 //
-//  Created by dy8950 on 7/17/24.
+//  Created by Daniel Yankiver on 7/17/24.
 //
 
 import SwiftUI
