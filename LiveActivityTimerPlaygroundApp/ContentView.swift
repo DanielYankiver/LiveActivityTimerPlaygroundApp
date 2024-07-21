@@ -25,7 +25,6 @@ struct ContentView: View {
   var body: some View {
     VStack {
       Spacer()
-
       if isTimerRunning {
         CircleTimerView(progress: $progress, duration: $duration)
       }
