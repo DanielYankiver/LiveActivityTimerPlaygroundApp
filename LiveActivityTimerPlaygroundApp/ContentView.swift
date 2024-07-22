@@ -24,7 +24,7 @@ struct ContentView: View {
   
   // Timer progress.
   @State var progress = 1.0
-  
+
   // Timer which will publish update every one second.
   @State var timer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
 
