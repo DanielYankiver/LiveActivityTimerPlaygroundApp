@@ -15,6 +15,7 @@ struct ContentView: View {
   
   // The interval difference between total and remaining duration.
   @State var interval = TimeInterval()
+  
   // The actual total duration.
   @State var totalDuration: TimeInterval = 2 * 60
   // The remaining duration.
