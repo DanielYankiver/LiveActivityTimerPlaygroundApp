@@ -12,7 +12,6 @@ struct ContentView: View {
   @State var isTimerRunning = false
 
   @State var startTime = Date()
-  
   // The interval difference between total and remaining duration.
   @State var interval = TimeInterval()
   
