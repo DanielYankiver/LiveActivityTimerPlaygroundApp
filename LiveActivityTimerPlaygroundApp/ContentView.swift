@@ -17,7 +17,6 @@ struct ContentView: View {
   @State var totalDuration: TimeInterval = 2 * 60
   // The remaining duration.
   @State var duration: TimeInterval = 2 * 60
-
   // Timer progress.
   @State var progress = 1.0
 
