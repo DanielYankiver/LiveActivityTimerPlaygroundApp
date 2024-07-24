@@ -12,6 +12,7 @@ struct ContentView: View {
 
   // Boolean indicates wether the timer is running or not.
   @State var isTimerRunning = false
+
   // The interval difference between total and remaining duration.
   @State var interval = TimeInterval()
   // The actual total duration.
