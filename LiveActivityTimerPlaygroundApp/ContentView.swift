@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
   @State var startTime = Date()
+
   // Boolean indicates wether the timer is running or not.
   @State var isTimerRunning = false
   // The interval difference between total and remaining duration.
