@@ -21,6 +21,7 @@ struct ContentView: View {
 
   // The remaining duration.
   @State var duration: TimeInterval = 2 * 60
+
   // Timer progress.
   @State var progress = 1.0
   // Timer which will publish update every one second.
